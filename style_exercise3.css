@@ -8,7 +8,6 @@
 
 a {
     text-decoration: none;
-    color: #0038FF;
 }
 
 button {
@@ -32,30 +31,38 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    font-size: 18px;
 }
 
-header ul {
+main {
     display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
-header ul li {
-    margin-top: 30px;
-    padding-top: 14px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 14px;
-    margin-right: 40px;
-    outline: 3px solid #0038FF;
+main img {
+    margin-right: 20px;
 }
 
-header ul li a {
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+main section {
+    flex-direction: column;
 }
 
-header ul li a:hover {
-    color: white;
-    background: #0038FF;
+main section h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+main section p {
+    max-width: 671px;
+    margin-bottom: 120px;
+}
+
+main section span {
+    font-size: 16px;
+    color: #797979;
+}
+
+main section .data {
+    margin-right: 19px;
 }
